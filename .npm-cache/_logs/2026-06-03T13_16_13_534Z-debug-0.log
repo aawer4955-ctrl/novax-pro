@@ -1,0 +1,1571 @@
+0 verbose cli D:\Program Files\nodejs\node.exe D:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:D:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\expert\Documents\Codex\2026-06-03\c-users-expert-desktop-novax-pro\.npmrc
+5 silly config load:file:C:\Users\expert\.npmrc
+6 silly config load:file:C:\Users\expert\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".\\.npm-cache" "--registry" "https://registry.npmjs.org" "--no-audit" "--prefer-online"
+9 verbose logfile logs-max:10 dir:C:\Users\expert\Documents\Codex\2026-06-03\c-users-expert-desktop-novax-pro\.npm-cache\_logs\2026-06-03T13_16_13_534Z-
+10 verbose logfile C:\Users\expert\Documents\Codex\2026-06-03\c-users-expert-desktop-novax-pro\.npm-cache\_logs\2026-06-03T13_16_13_534Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly reify mark retired [
+14 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\acorn'
+14 silly reify ]
+15 silly reify mark retired [
+15 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\ansi-styles'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\argparse'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\ajv'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\array-buffer-byte-length'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\aria-query'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\acorn-jsx'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\array.prototype.findlast'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\array.prototype.findlastindex'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\array.prototype.flatmap'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\array-includes'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\array.prototype.tosorted'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\array.prototype.flat'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\arraybuffer.prototype.slice'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\async-function'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\ast-types-flow'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\available-typed-arrays'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\axe-core'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\axobject-query'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\brace-expansion'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\baseline-browser-mapping'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\balanced-match'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\braces'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\call-bind-apply-helpers'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\call-bind'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\browserslist'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\c12'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\call-bound'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\callsites'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\chokidar'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\citty'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\chalk'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\caniuse-lite'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\color-convert'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\client-only'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\color-name'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\confbox'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\consola'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\concat-map'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\convert-source-map'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\csstype'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\damerau-levenshtein'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\cross-spawn'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\data-view-buffer'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\data-view-byte-length'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\data-view-byte-offset'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\debug'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\deepmerge-ts'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\deep-is'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\define-data-property'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\defu'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\destr'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\dotenv'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\detect-libc'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\define-properties'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\doctrine'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\dunder-proto'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\effect'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\empathic'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\enhanced-resolve'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\emoji-regex'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\electron-to-chromium'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\es-abstract'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\es-define-property'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\es-errors'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\es-iterator-helpers'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\es-object-atoms'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\es-set-tostringtag'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\es-to-primitive'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\es-shim-unscopables'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\escape-string-regexp'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\escalade'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-config-next'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-import-resolver-node'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-module-utils'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-import-resolver-typescript'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-plugin-import'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-plugin-react-hooks'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-plugin-jsx-a11y'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-plugin-react'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-scope'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-visitor-keys'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\espree'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\esquery'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\esrecurse'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\estraverse'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\esutils'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\fast-check'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\exsolve'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\fast-deep-equal'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\fast-json-stable-stringify'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\file-entry-cache'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\fast-levenshtein'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\fastq'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\find-up'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\flat-cache'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\flatted'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\for-each'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\fast-glob'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\fill-range'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\function-bind'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\function.prototype.name'
+116 silly reify ]
+117 silly reify mark retired [
+117 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\generator-function'
+117 silly reify ]
+118 silly reify mark retired [
+118 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\gensync'
+118 silly reify ]
+119 silly reify mark retired [
+119 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\functions-have-names'
+119 silly reify ]
+120 silly reify mark retired [
+120 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\get-intrinsic'
+120 silly reify ]
+121 silly reify mark retired [
+121 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\get-proto'
+121 silly reify ]
+122 silly reify mark retired [
+122 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\get-symbol-description'
+122 silly reify ]
+123 silly reify mark retired [
+123 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\get-tsconfig'
+123 silly reify ]
+124 silly reify mark retired [
+124 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\giget'
+124 silly reify ]
+125 silly reify mark retired [
+125 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\glob-parent'
+125 silly reify ]
+126 silly reify mark retired [
+126 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\globals'
+126 silly reify ]
+127 silly reify mark retired [
+127 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\globalthis'
+127 silly reify ]
+128 silly reify mark retired [
+128 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\gopd'
+128 silly reify ]
+129 silly reify mark retired [
+129 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\graceful-fs'
+129 silly reify ]
+130 silly reify mark retired [
+130 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\has-property-descriptors'
+130 silly reify ]
+131 silly reify mark retired [
+131 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\has-flag'
+131 silly reify ]
+132 silly reify mark retired [
+132 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\has-bigints'
+132 silly reify ]
+133 silly reify mark retired [
+133 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\has-proto'
+133 silly reify ]
+134 silly reify mark retired [
+134 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\has-symbols'
+134 silly reify ]
+135 silly reify mark retired [
+135 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\has-tostringtag'
+135 silly reify ]
+136 silly reify mark retired [
+136 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\hasown'
+136 silly reify ]
+137 silly reify mark retired [
+137 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\hermes-parser'
+137 silly reify ]
+138 silly reify mark retired [
+138 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\ignore'
+138 silly reify ]
+139 silly reify mark retired [
+139 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\hermes-estree'
+139 silly reify ]
+140 silly reify mark retired [
+140 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\import-fresh'
+140 silly reify ]
+141 silly reify mark retired [
+141 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\imurmurhash'
+141 silly reify ]
+142 silly reify mark retired [
+142 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\internal-slot'
+142 silly reify ]
+143 silly reify mark retired [
+143 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-array-buffer'
+143 silly reify ]
+144 silly reify mark retired [
+144 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-boolean-object'
+144 silly reify ]
+145 silly reify mark retired [
+145 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-bun-module'
+145 silly reify ]
+146 silly reify mark retired [
+146 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-async-function'
+146 silly reify ]
+147 silly reify mark retired [
+147 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-callable'
+147 silly reify ]
+148 silly reify mark retired [
+148 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-bigint'
+148 silly reify ]
+149 silly reify mark retired [
+149 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-data-view'
+149 silly reify ]
+150 silly reify mark retired [
+150 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-core-module'
+150 silly reify ]
+151 silly reify mark retired [
+151 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-date-object'
+151 silly reify ]
+152 silly reify mark retired [
+152 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-finalizationregistry'
+152 silly reify ]
+153 silly reify mark retired [
+153 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-generator-function'
+153 silly reify ]
+154 silly reify mark retired [
+154 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-extglob'
+154 silly reify ]
+155 silly reify mark retired [
+155 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-negative-zero'
+155 silly reify ]
+156 silly reify mark retired [
+156 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-map'
+156 silly reify ]
+157 silly reify mark retired [
+157 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-glob'
+157 silly reify ]
+158 silly reify mark retired [
+158 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-number'
+158 silly reify ]
+159 silly reify mark retired [
+159 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-number-object'
+159 silly reify ]
+160 silly reify mark retired [
+160 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-regex'
+160 silly reify ]
+161 silly reify mark retired [
+161 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-shared-array-buffer'
+161 silly reify ]
+162 silly reify mark retired [
+162 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-set'
+162 silly reify ]
+163 silly reify mark retired [
+163 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-string'
+163 silly reify ]
+164 silly reify mark retired [
+164 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-typed-array'
+164 silly reify ]
+165 silly reify mark retired [
+165 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-symbol'
+165 silly reify ]
+166 silly reify mark retired [
+166 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-weakmap'
+166 silly reify ]
+167 silly reify mark retired [
+167 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-weakref'
+167 silly reify ]
+168 silly reify mark retired [
+168 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-weakset'
+168 silly reify ]
+169 silly reify mark retired [
+169 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\isexe'
+169 silly reify ]
+170 silly reify mark retired [
+170 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\iterator.prototype'
+170 silly reify ]
+171 silly reify mark retired [
+171 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\isarray'
+171 silly reify ]
+172 silly reify mark retired [
+172 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\jiti'
+172 silly reify ]
+173 silly reify mark retired [
+173 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\js-tokens'
+173 silly reify ]
+174 silly reify mark retired [
+174 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\js-yaml'
+174 silly reify ]
+175 silly reify mark retired [
+175 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\jsesc'
+175 silly reify ]
+176 silly reify mark retired [
+176 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\json-buffer'
+176 silly reify ]
+177 silly reify mark retired [
+177 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\json-schema-traverse'
+177 silly reify ]
+178 silly reify mark retired [
+178 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\json5'
+178 silly reify ]
+179 silly reify mark retired [
+179 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\json-stable-stringify-without-jsonify'
+179 silly reify ]
+180 silly reify mark retired [
+180 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\jsx-ast-utils'
+180 silly reify ]
+181 silly reify mark retired [
+181 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\keyv'
+181 silly reify ]
+182 silly reify mark retired [
+182 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\language-tags'
+182 silly reify ]
+183 silly reify mark retired [
+183 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\language-subtag-registry'
+183 silly reify ]
+184 silly reify mark retired [
+184 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\lightningcss'
+184 silly reify ]
+185 silly reify mark retired [
+185 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\levn'
+185 silly reify ]
+186 silly reify mark retired [
+186 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\lightningcss-win32-x64-msvc'
+186 silly reify ]
+187 silly reify mark retired [
+187 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\lodash.merge'
+187 silly reify ]
+188 silly reify mark retired [
+188 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\loose-envify'
+188 silly reify ]
+189 silly reify mark retired [
+189 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\lru-cache'
+189 silly reify ]
+190 silly reify mark retired [
+190 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\locate-path'
+190 silly reify ]
+191 silly reify mark retired [
+191 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\magic-string'
+191 silly reify ]
+192 silly reify mark retired [
+192 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\math-intrinsics'
+192 silly reify ]
+193 silly reify mark retired [
+193 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\merge2'
+193 silly reify ]
+194 silly reify mark retired [
+194 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\micromatch'
+194 silly reify ]
+195 silly reify mark retired [
+195 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\minimatch'
+195 silly reify ]
+196 silly reify mark retired [
+196 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\ms'
+196 silly reify ]
+197 silly reify mark retired [
+197 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\minimist'
+197 silly reify ]
+198 silly reify mark retired [
+198 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\nanoid'
+198 silly reify ]
+199 silly reify mark retired [
+199 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\natural-compare'
+199 silly reify ]
+200 silly reify mark retired [
+200 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\next'
+200 silly reify ]
+201 silly reify mark retired [
+201 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\napi-postinstall'
+201 silly reify ]
+202 silly reify mark retired [
+202 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\node-exports-info'
+202 silly reify ]
+203 silly reify mark retired [
+203 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\node-fetch-native'
+203 silly reify ]
+204 silly reify mark retired [
+204 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\nypm'
+204 silly reify ]
+205 silly reify mark retired [
+205 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\node-releases'
+205 silly reify ]
+206 silly reify mark retired [
+206 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\object-assign'
+206 silly reify ]
+207 silly reify mark retired [
+207 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\object-inspect'
+207 silly reify ]
+208 silly reify mark retired [
+208 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\object-keys'
+208 silly reify ]
+209 silly reify mark retired [
+209 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\object.entries'
+209 silly reify ]
+210 silly reify mark retired [
+210 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\object.fromentries'
+210 silly reify ]
+211 silly reify mark retired [
+211 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\object.assign'
+211 silly reify ]
+212 silly reify mark retired [
+212 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\object.groupby'
+212 silly reify ]
+213 silly reify mark retired [
+213 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\object.values'
+213 silly reify ]
+214 silly reify mark retired [
+214 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\ohash'
+214 silly reify ]
+215 silly reify mark retired [
+215 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\optionator'
+215 silly reify ]
+216 silly reify mark retired [
+216 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\own-keys'
+216 silly reify ]
+217 silly reify mark retired [
+217 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\p-limit'
+217 silly reify ]
+218 silly reify mark retired [
+218 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\p-locate'
+218 silly reify ]
+219 silly reify mark retired [
+219 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\parent-module'
+219 silly reify ]
+220 silly reify mark retired [
+220 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\path-exists'
+220 silly reify ]
+221 silly reify mark retired [
+221 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\path-key'
+221 silly reify ]
+222 silly reify mark retired [
+222 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\path-parse'
+222 silly reify ]
+223 silly reify mark retired [
+223 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\pathe'
+223 silly reify ]
+224 silly reify mark retired [
+224 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\perfect-debounce'
+224 silly reify ]
+225 silly reify mark retired [
+225 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\picocolors'
+225 silly reify ]
+226 silly reify mark retired [
+226 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\picomatch'
+226 silly reify ]
+227 silly reify mark retired [
+227 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\possible-typed-array-names'
+227 silly reify ]
+228 silly reify mark retired [
+228 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\pkg-types'
+228 silly reify ]
+229 silly reify mark retired [
+229 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\postcss'
+229 silly reify ]
+230 silly reify mark retired [
+230 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\prelude-ls'
+230 silly reify ]
+231 silly reify mark retired [
+231 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\prisma'
+231 silly reify ]
+232 silly reify mark retired [
+232 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\prop-types'
+232 silly reify ]
+233 silly reify mark retired [
+233 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\punycode'
+233 silly reify ]
+234 silly reify mark retired [
+234 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\pure-rand'
+234 silly reify ]
+235 silly reify mark retired [
+235 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\queue-microtask'
+235 silly reify ]
+236 silly reify mark retired [
+236 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\rc9'
+236 silly reify ]
+237 silly reify mark retired [
+237 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\react'
+237 silly reify ]
+238 silly reify mark retired [
+238 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\react-dom'
+238 silly reify ]
+239 silly reify mark retired [
+239 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\react-is'
+239 silly reify ]
+240 silly reify mark retired [
+240 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\regexp.prototype.flags'
+240 silly reify ]
+241 silly reify mark retired [
+241 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\readdirp'
+241 silly reify ]
+242 silly reify mark retired [
+242 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\reflect.getprototypeof'
+242 silly reify ]
+243 silly reify mark retired [
+243 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\resolve'
+243 silly reify ]
+244 silly reify mark retired [
+244 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\resolve-from'
+244 silly reify ]
+245 silly reify mark retired [
+245 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\resolve-pkg-maps'
+245 silly reify ]
+246 silly reify mark retired [
+246 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\reusify'
+246 silly reify ]
+247 silly reify mark retired [
+247 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\run-parallel'
+247 silly reify ]
+248 silly reify mark retired [
+248 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\safe-array-concat'
+248 silly reify ]
+249 silly reify mark retired [
+249 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\safe-push-apply'
+249 silly reify ]
+250 silly reify mark retired [
+250 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\safe-regex-test'
+250 silly reify ]
+251 silly reify mark retired [
+251 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\scheduler'
+251 silly reify ]
+252 silly reify mark retired [
+252 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\semver'
+252 silly reify ]
+253 silly reify mark retired [
+253 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\set-function-name'
+253 silly reify ]
+254 silly reify mark retired [
+254 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\set-function-length'
+254 silly reify ]
+255 silly reify mark retired [
+255 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\set-proto'
+255 silly reify ]
+256 silly reify mark retired [
+256 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\shebang-command'
+256 silly reify ]
+257 silly reify mark retired [
+257 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\sharp'
+257 silly reify ]
+258 silly reify mark retired [
+258 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\shebang-regex'
+258 silly reify ]
+259 silly reify mark retired [
+259 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\side-channel'
+259 silly reify ]
+260 silly reify mark retired [
+260 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\side-channel-list'
+260 silly reify ]
+261 silly reify mark retired [
+261 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\source-map-js'
+261 silly reify ]
+262 silly reify mark retired [
+262 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\side-channel-map'
+262 silly reify ]
+263 silly reify mark retired [
+263 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\side-channel-weakmap'
+263 silly reify ]
+264 silly reify mark retired [
+264 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\stable-hash'
+264 silly reify ]
+265 silly reify mark retired [
+265 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\stop-iteration-iterator'
+265 silly reify ]
+266 silly reify mark retired [
+266 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\string.prototype.matchall'
+266 silly reify ]
+267 silly reify mark retired [
+267 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\string.prototype.includes'
+267 silly reify ]
+268 silly reify mark retired [
+268 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\string.prototype.trim'
+268 silly reify ]
+269 silly reify mark retired [
+269 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\string.prototype.trimend'
+269 silly reify ]
+270 silly reify mark retired [
+270 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\string.prototype.repeat'
+270 silly reify ]
+271 silly reify mark retired [
+271 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\string.prototype.trimstart'
+271 silly reify ]
+272 silly reify mark retired [
+272 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\strip-bom'
+272 silly reify ]
+273 silly reify mark retired [
+273 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\styled-jsx'
+273 silly reify ]
+274 silly reify mark retired [
+274 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\supports-color'
+274 silly reify ]
+275 silly reify mark retired [
+275 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\strip-json-comments'
+275 silly reify ]
+276 silly reify mark retired [
+276 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\tailwindcss'
+276 silly reify ]
+277 silly reify mark retired [
+277 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\supports-preserve-symlinks-flag'
+277 silly reify ]
+278 silly reify mark retired [
+278 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\tapable'
+278 silly reify ]
+279 silly reify mark retired [
+279 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\tinyexec'
+279 silly reify ]
+280 silly reify mark retired [
+280 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\tinyglobby'
+280 silly reify ]
+281 silly reify mark retired [
+281 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\to-regex-range'
+281 silly reify ]
+282 silly reify mark retired [
+282 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\ts-api-utils'
+282 silly reify ]
+283 silly reify mark retired [
+283 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\tsconfig-paths'
+283 silly reify ]
+284 silly reify mark retired [
+284 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\tslib'
+284 silly reify ]
+285 silly reify mark retired [
+285 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\type-check'
+285 silly reify ]
+286 silly reify mark retired [
+286 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\typed-array-buffer'
+286 silly reify ]
+287 silly reify mark retired [
+287 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\typed-array-byte-length'
+287 silly reify ]
+288 silly reify mark retired [
+288 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\typed-array-byte-offset'
+288 silly reify ]
+289 silly reify mark retired [
+289 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\typescript'
+289 silly reify ]
+290 silly reify mark retired [
+290 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\typed-array-length'
+290 silly reify ]
+291 silly reify mark retired [
+291 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\typescript-eslint'
+291 silly reify ]
+292 silly reify mark retired [
+292 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\undici-types'
+292 silly reify ]
+293 silly reify mark retired [
+293 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\unbox-primitive'
+293 silly reify ]
+294 silly reify mark retired [
+294 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\unrs-resolver'
+294 silly reify ]
+295 silly reify mark retired [
+295 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\update-browserslist-db'
+295 silly reify ]
+296 silly reify mark retired [
+296 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\uri-js'
+296 silly reify ]
+297 silly reify mark retired [
+297 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\which-boxed-primitive'
+297 silly reify ]
+298 silly reify mark retired [
+298 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\which-builtin-type'
+298 silly reify ]
+299 silly reify mark retired [
+299 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\which'
+299 silly reify ]
+300 silly reify mark retired [
+300 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\which-collection'
+300 silly reify ]
+301 silly reify mark retired [
+301 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\which-typed-array'
+301 silly reify ]
+302 silly reify mark retired [
+302 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\word-wrap'
+302 silly reify ]
+303 silly reify mark retired [
+303 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\yallist'
+303 silly reify ]
+304 silly reify mark retired [
+304 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\yocto-queue'
+304 silly reify ]
+305 silly reify mark retired [
+305 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\zod'
+305 silly reify ]
+306 silly reify mark retired [
+306 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\zod-validation-error'
+306 silly reify ]
+307 silly reify mark retired [
+307 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@alloc\\quick-lru'
+307 silly reify ]
+308 silly reify mark retired [
+308 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\code-frame'
+308 silly reify ]
+309 silly reify mark retired [
+309 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\compat-data'
+309 silly reify ]
+310 silly reify mark retired [
+310 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\generator'
+310 silly reify ]
+311 silly reify mark retired [
+311 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\core'
+311 silly reify ]
+312 silly reify mark retired [
+312 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\helper-compilation-targets'
+312 silly reify ]
+313 silly reify mark retired [
+313 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\helper-globals'
+313 silly reify ]
+314 silly reify mark retired [
+314 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\helper-module-imports'
+314 silly reify ]
+315 silly reify mark retired [
+315 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\helper-module-transforms'
+315 silly reify ]
+316 silly reify mark retired [
+316 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\helper-string-parser'
+316 silly reify ]
+317 silly reify mark retired [
+317 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\helper-validator-identifier'
+317 silly reify ]
+318 silly reify mark retired [
+318 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\helper-validator-option'
+318 silly reify ]
+319 silly reify mark retired [
+319 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\helpers'
+319 silly reify ]
+320 silly reify mark retired [
+320 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\parser'
+320 silly reify ]
+321 silly reify mark retired [
+321 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\template'
+321 silly reify ]
+322 silly reify mark retired [
+322 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\traverse'
+322 silly reify ]
+323 silly reify mark retired [
+323 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\types'
+323 silly reify ]
+324 silly reify mark retired [
+324 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\config-array'
+324 silly reify ]
+325 silly reify mark retired [
+325 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\config-helpers'
+325 silly reify ]
+326 silly reify mark retired [
+326 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\core'
+326 silly reify ]
+327 silly reify mark retired [
+327 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\object-schema'
+327 silly reify ]
+328 silly reify mark retired [
+328 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\js'
+328 silly reify ]
+329 silly reify mark retired [
+329 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\eslintrc'
+329 silly reify ]
+330 silly reify mark retired [
+330 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\plugin-kit'
+330 silly reify ]
+331 silly reify mark retired [
+331 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@emnapi\\core'
+331 silly reify ]
+332 silly reify mark retired [
+332 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@emnapi\\runtime'
+332 silly reify ]
+333 silly reify mark retired [
+333 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@emnapi\\wasi-threads'
+333 silly reify ]
+334 silly reify mark retired [
+334 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint-community\\eslint-utils'
+334 silly reify ]
+335 silly reify mark retired [
+335 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint-community\\regexpp'
+335 silly reify ]
+336 silly reify mark retired [
+336 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@humanfs\\core'
+336 silly reify ]
+337 silly reify mark retired [
+337 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@humanfs\\node'
+337 silly reify ]
+338 silly reify mark retired [
+338 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@humanfs\\types'
+338 silly reify ]
+339 silly reify mark retired [
+339 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@jridgewell\\gen-mapping'
+339 silly reify ]
+340 silly reify mark retired [
+340 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@jridgewell\\remapping'
+340 silly reify ]
+341 silly reify mark retired [
+341 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@jridgewell\\sourcemap-codec'
+341 silly reify ]
+342 silly reify mark retired [
+342 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@jridgewell\\resolve-uri'
+342 silly reify ]
+343 silly reify mark retired [
+343 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@jridgewell\\trace-mapping'
+343 silly reify ]
+344 silly reify mark retired [
+344 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@napi-rs\\wasm-runtime'
+344 silly reify ]
+345 silly reify mark retired [
+345 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@img\\colour'
+345 silly reify ]
+346 silly reify mark retired [
+346 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@img\\sharp-win32-x64'
+346 silly reify ]
+347 silly reify mark retired [
+347 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@next\\env'
+347 silly reify ]
+348 silly reify mark retired [
+348 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@next\\eslint-plugin-next'
+348 silly reify ]
+349 silly reify mark retired [
+349 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@next\\swc-win32-x64-msvc'
+349 silly reify ]
+350 silly reify mark retired [
+350 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@nodelib\\fs.scandir'
+350 silly reify ]
+351 silly reify mark retired [
+351 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@nodelib\\fs.stat'
+351 silly reify ]
+352 silly reify mark retired [
+352 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@nodelib\\fs.walk'
+352 silly reify ]
+353 silly reify mark retired [
+353 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@nolyfill\\is-core-module'
+353 silly reify ]
+354 silly reify mark retired [
+354 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\client'
+354 silly reify ]
+355 silly reify mark retired [
+355 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\config'
+355 silly reify ]
+356 silly reify mark retired [
+356 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\debug'
+356 silly reify ]
+357 silly reify mark retired [
+357 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\engines'
+357 silly reify ]
+358 silly reify mark retired [
+358 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\engines-version'
+358 silly reify ]
+359 silly reify mark retired [
+359 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\fetch-engine'
+359 silly reify ]
+360 silly reify mark retired [
+360 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\get-platform'
+360 silly reify ]
+361 silly reify mark retired [
+361 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@rtsao\\scc'
+361 silly reify ]
+362 silly reify mark retired [
+362 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@standard-schema\\spec'
+362 silly reify ]
+363 silly reify mark retired [
+363 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@swc\\helpers'
+363 silly reify ]
+364 silly reify mark retired [
+364 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@tailwindcss\\node'
+364 silly reify ]
+365 silly reify mark retired [
+365 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@tailwindcss\\oxide'
+365 silly reify ]
+366 silly reify mark retired [
+366 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@tailwindcss\\oxide-win32-x64-msvc'
+366 silly reify ]
+367 silly reify mark retired [
+367 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@tailwindcss\\postcss'
+367 silly reify ]
+368 silly reify mark retired [
+368 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@tybys\\wasm-util'
+368 silly reify ]
+369 silly reify mark retired [
+369 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\eslint-plugin'
+369 silly reify ]
+370 silly reify mark retired [
+370 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\project-service'
+370 silly reify ]
+371 silly reify mark retired [
+371 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\parser'
+371 silly reify ]
+372 silly reify mark retired [
+372 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\scope-manager'
+372 silly reify ]
+373 silly reify mark retired [
+373 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\tsconfig-utils'
+373 silly reify ]
+374 silly reify mark retired [
+374 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\types'
+374 silly reify ]
+375 silly reify mark retired [
+375 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\type-utils'
+375 silly reify ]
+376 silly reify mark retired [
+376 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\utils'
+376 silly reify ]
+377 silly reify mark retired [
+377 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\typescript-estree'
+377 silly reify ]
+378 silly reify mark retired [
+378 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@humanwhocodes\\module-importer'
+378 silly reify ]
+379 silly reify mark retired [
+379 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\visitor-keys'
+379 silly reify ]
+380 silly reify mark retired [
+380 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@humanwhocodes\\retry'
+380 silly reify ]
+381 silly reify mark retired [
+381 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@types\\estree'
+381 silly reify ]
+382 silly reify mark retired [
+382 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@types\\json-schema'
+382 silly reify ]
+383 silly reify mark retired [
+383 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@types\\json5'
+383 silly reify ]
+384 silly reify mark retired [
+384 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@types\\node'
+384 silly reify ]
+385 silly reify mark retired [
+385 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@types\\react'
+385 silly reify ]
+386 silly reify mark retired [
+386 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@types\\react-dom'
+386 silly reify ]
+387 silly reify mark retired [
+387 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@unrs\\resolver-binding-win32-x64-msvc'
+387 silly reify ]
+388 silly reify moves {
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\acorn': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.acorn-SZK0CEyX',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\ansi-styles': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.ansi-styles-6gdxgvKk',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\argparse': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.argparse-qbwt2I7w',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\ajv': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.ajv-vS6G0ba6',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\array-buffer-byte-length': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.array-buffer-byte-length-t4GAjwAa',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\aria-query': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.aria-query-3fiBbTBn',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\acorn-jsx': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.acorn-jsx-ZdXMc4CI',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\array.prototype.findlast': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.array.prototype.findlast-7KJ1WKYe',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\array.prototype.findlastindex': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.array.prototype.findlastindex-qGtGVsdl',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\array.prototype.flatmap': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.array.prototype.flatmap-MLmv0zN2',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\array-includes': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.array-includes-ZuSnBeCO',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\array.prototype.tosorted': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.array.prototype.tosorted-jiXLh6VZ',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\array.prototype.flat': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.array.prototype.flat-ckBxQsvu',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\arraybuffer.prototype.slice': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.arraybuffer.prototype.slice-Eh7OGkYi',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\async-function': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.async-function-yLpptjQL',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\ast-types-flow': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.ast-types-flow-TioHutcp',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\available-typed-arrays': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.available-typed-arrays-0zNe67Qp',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\axe-core': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.axe-core-7A0s91zR',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\axobject-query': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.axobject-query-WF5bWI8g',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\brace-expansion': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.brace-expansion-r7mVtjvi',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\baseline-browser-mapping': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.baseline-browser-mapping-PrNSI3oT',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\balanced-match': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.balanced-match-mJjUtALO',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\braces': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.braces-U6HHrVhS',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\call-bind-apply-helpers': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.call-bind-apply-helpers-A6NHqk0V',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\call-bind': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.call-bind-jTFBMtNl',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\browserslist': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.browserslist-lvE6WO43',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\c12': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.c12-ltiBx3KJ',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\call-bound': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.call-bound-KFjwlmUk',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\callsites': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.callsites-TDcfLOx9',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\chokidar': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.chokidar-jyB7iCJb',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\citty': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.citty-b0VYmIq3',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\chalk': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.chalk-immUH5Ec',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\caniuse-lite': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.caniuse-lite-IvAuH7GU',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\color-convert': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.color-convert-t7CfaAg3',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\client-only': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.client-only-0zvJjCG2',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\color-name': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.color-name-nJgteLIh',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\confbox': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.confbox-Izhv3nar',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\consola': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.consola-bQeNNxLj',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\concat-map': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.concat-map-GGuZw2Yn',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\convert-source-map': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.convert-source-map-lS4lpsMR',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\csstype': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.csstype-77gQH1BW',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\damerau-levenshtein': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.damerau-levenshtein-Ph85gndy',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\cross-spawn': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.cross-spawn-EaGb6bPq',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\data-view-buffer': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.data-view-buffer-UwBoW0gN',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\data-view-byte-length': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.data-view-byte-length-WCVI3j3P',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\data-view-byte-offset': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.data-view-byte-offset-h6sskn1C',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\debug': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.debug-7oPVJ7GL',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\deepmerge-ts': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.deepmerge-ts-uh2pSlSy',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\deep-is': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.deep-is-HwWBEMdU',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\define-data-property': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.define-data-property-T8RbjtZ2',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\defu': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.defu-f6PlEZ8J',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\destr': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.destr-IhKtZ8z0',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\dotenv': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.dotenv-t1j09bz1',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\detect-libc': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.detect-libc-psnQuUla',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\define-properties': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.define-properties-OHeYUrzA',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\doctrine': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.doctrine-JmrjIKNS',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\dunder-proto': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.dunder-proto-tdwZj0Md',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\effect': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.effect-YXgt28wj',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\empathic': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.empathic-9FZYM3DR',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\enhanced-resolve': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.enhanced-resolve-ynPwPn4u',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\emoji-regex': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.emoji-regex-d7LrWsbx',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\electron-to-chromium': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.electron-to-chromium-jY17dOcL',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\es-abstract': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.es-abstract-pzyhYsrx',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\es-define-property': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.es-define-property-z4uoonLN',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\es-errors': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.es-errors-BydHF2Xr',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\es-iterator-helpers': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.es-iterator-helpers-fnwBlbOv',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\es-object-atoms': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.es-object-atoms-zy0FXeBG',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\es-set-tostringtag': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.es-set-tostringtag-zyag0dip',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\es-to-primitive': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.es-to-primitive-kU7V6Ojo',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\es-shim-unscopables': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.es-shim-unscopables-JVJwQjh2',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\escape-string-regexp': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.escape-string-regexp-gnbyGtpk',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\escalade': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.escalade-V41r6gI5',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.eslint-PAs0zpXl',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-config-next': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.eslint-config-next-Xn2qZ9kN',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-import-resolver-node': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.eslint-import-resolver-node-uOo0BntG',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-module-utils': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.eslint-module-utils-o9SnUDQ3',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-import-resolver-typescript': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.eslint-import-resolver-typescript-TTd7SWyH',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-plugin-import': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.eslint-plugin-import-vaEA15Y2',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-plugin-react-hooks': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.eslint-plugin-react-hooks-ynBeiFPq',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-plugin-jsx-a11y': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.eslint-plugin-jsx-a11y-mhazjs9y',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-plugin-react': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.eslint-plugin-react-5Ea35TxZ',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-scope': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.eslint-scope-4Hp6JBWo',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\eslint-visitor-keys': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.eslint-visitor-keys-xiflSudE',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\espree': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.espree-hRzZaVKi',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\esquery': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.esquery-9z7MshQQ',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\esrecurse': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.esrecurse-6yOjpJSV',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\estraverse': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.estraverse-7EX9DuMX',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\esutils': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.esutils-6zeRfGv7',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\fast-check': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.fast-check-F3JvzaHt',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\exsolve': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.exsolve-bRycWwzb',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\fast-deep-equal': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.fast-deep-equal-OajtSTJ5',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\fast-json-stable-stringify': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.fast-json-stable-stringify-0LKoFzSt',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\file-entry-cache': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.file-entry-cache-kNbtcJrk',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\fast-levenshtein': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.fast-levenshtein-0Gfielmt',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\fastq': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.fastq-rOaPm2Dn',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\find-up': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.find-up-o2vuwMpR',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\flat-cache': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.flat-cache-qwP0GbNo',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\flatted': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.flatted-jbm49BLj',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\for-each': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.for-each-NPdNWFCi',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\fast-glob': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.fast-glob-NPUUPeYb',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\fill-range': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.fill-range-5gd3MfrC',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\function-bind': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.function-bind-jM7CmbMU',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\function.prototype.name': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.function.prototype.name-dcwUBcUx',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\generator-function': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.generator-function-41gRbE8Z',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\gensync': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.gensync-PLVct4SN',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\functions-have-names': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.functions-have-names-2hkx9xGv',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\get-intrinsic': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.get-intrinsic-vbVZWEuf',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\get-proto': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.get-proto-EsdhHNU1',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\get-symbol-description': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.get-symbol-description-MY02OGuQ',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\get-tsconfig': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.get-tsconfig-PWHoNZFD',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\giget': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.giget-bxxvry36',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\glob-parent': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.glob-parent-U9gOOkBA',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\globals': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.globals-qsjKhTP4',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\globalthis': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.globalthis-leBhv1Hj',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\gopd': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.gopd-Rw1FvAmQ',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\graceful-fs': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.graceful-fs-yYcOqd3y',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\has-property-descriptors': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.has-property-descriptors-3YQjZnSi',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\has-flag': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.has-flag-zhIQAYnu',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\has-bigints': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.has-bigints-ZJxBtmiy',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\has-proto': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.has-proto-qIK2xPA4',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\has-symbols': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.has-symbols-erBHTyVT',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\has-tostringtag': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.has-tostringtag-9xD6kdtM',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\hasown': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.hasown-OcFLohqp',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\hermes-parser': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.hermes-parser-0Fd3DGqo',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\ignore': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.ignore-m1jfEmfu',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\hermes-estree': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.hermes-estree-InPmKtu2',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\import-fresh': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.import-fresh-AGTAytmc',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\imurmurhash': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.imurmurhash-R8elQtit',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\internal-slot': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.internal-slot-2XZPbX7k',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-array-buffer': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-array-buffer-XIgRlfzj',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-boolean-object': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-boolean-object-QBQlv2aM',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-bun-module': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-bun-module-GBTXDu94',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-async-function': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-async-function-Ay6Xmu8V',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-callable': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-callable-S2AxO8Et',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-bigint': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-bigint-OS7Ph8GW',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-data-view': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-data-view-tkuUUeGv',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-core-module': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-core-module-qQ5At5UT',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-date-object': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-date-object-AVGstOPv',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-finalizationregistry': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-finalizationregistry-TiTFmMzT',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-generator-function': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-generator-function-4aDKK0xD',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-extglob': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-extglob-JiGRFht5',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-negative-zero': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-negative-zero-GZmHQHGQ',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-map': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-map-c66XmcMn',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-glob': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-glob-zpaNhpz0',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-number': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-number-WdSRkFAD',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-number-object': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-number-object-NLgv68hk',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-regex': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-regex-PDB8iNyX',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-shared-array-buffer': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-shared-array-buffer-RBXwMlIj',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-set': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-set-gDFT06h9',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-string': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-string-zVOxDuOD',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-typed-array': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-typed-array-EwqJA5jW',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-symbol': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-symbol-H1Oh4y9K',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-weakmap': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-weakmap-TE1SMAXy',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-weakref': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-weakref-qL8cS2uT',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\is-weakset': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.is-weakset-Rw6xkZry',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\isexe': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.isexe-4mtJgn0A',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\iterator.prototype': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.iterator.prototype-lR9W9Pcl',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\isarray': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.isarray-1RmgOmoL',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\jiti': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.jiti-MYXCtvOz',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\js-tokens': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.js-tokens-34f7Xqg2',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\js-yaml': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.js-yaml-AV05cvTV',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\jsesc': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.jsesc-EJ0W54Qs',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\json-buffer': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.json-buffer-XwQoD43A',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\json-schema-traverse': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.json-schema-traverse-vHRuKO0t',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\json5': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.json5-MfcG4QBQ',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\json-stable-stringify-without-jsonify': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.json-stable-stringify-without-jsonify-NAozxIsI',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\jsx-ast-utils': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.jsx-ast-utils-RUP6cCnm',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\keyv': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.keyv-UsoafpaU',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\language-tags': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.language-tags-TGOWfiRl',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\language-subtag-registry': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.language-subtag-registry-Qjc9px5Y',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\lightningcss': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.lightningcss-Io1kfE8T',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\levn': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.levn-s9azVv6F',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\lightningcss-win32-x64-msvc': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.lightningcss-win32-x64-msvc-nHzX9T1K',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\lodash.merge': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.lodash.merge-GSWeGc2T',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\loose-envify': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.loose-envify-uMW6qzoH',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\lru-cache': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.lru-cache-7kS6v0fj',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\locate-path': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.locate-path-ftsaZFOc',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\magic-string': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.magic-string-a7pDFgkj',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\math-intrinsics': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.math-intrinsics-rF6IhMoq',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\merge2': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.merge2-h4owbBz6',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\micromatch': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.micromatch-9jsfEPDe',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\minimatch': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.minimatch-CYJA9VHx',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\ms': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.ms-dsYIGEn2',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\minimist': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.minimist-et0yzYop',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\nanoid': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.nanoid-L9ZtPiIx',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\natural-compare': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.natural-compare-Vf22xuUQ',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\next': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.next-OgVCDZsM',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\napi-postinstall': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.napi-postinstall-g3exhYOp',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\node-exports-info': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.node-exports-info-Q9zfkYpL',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\node-fetch-native': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.node-fetch-native-ji20O99s',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\nypm': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.nypm-Bxo6Vmke',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\node-releases': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.node-releases-uRV4gqAY',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\object-assign': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.object-assign-vgkbpStl',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\object-inspect': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.object-inspect-gG6ztBQm',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\object-keys': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.object-keys-Mz4YcRzA',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\object.entries': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.object.entries-BESkpXtK',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\object.fromentries': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.object.fromentries-47c04VgA',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\object.assign': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.object.assign-q3c8XfUf',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\object.groupby': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.object.groupby-yTw5WF4s',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\object.values': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.object.values-bHTFcwtY',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\ohash': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.ohash-7j5LrRpq',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\optionator': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.optionator-aC5Q5RHp',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\own-keys': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.own-keys-Si3cSEye',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\p-limit': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.p-limit-mKY5YXkm',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\p-locate': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.p-locate-rASlBvcO',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\parent-module': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.parent-module-R4GPTtPh',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\path-exists': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.path-exists-MHtwcSaF',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\path-key': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.path-key-P1OibxWg',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\path-parse': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.path-parse-hjxfBoLI',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\pathe': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.pathe-oyeps9vp',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\perfect-debounce': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.perfect-debounce-xmiQeDtp',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\picocolors': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.picocolors-3bTl0GAR',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\picomatch': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.picomatch-GFw1CDwj',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\possible-typed-array-names': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.possible-typed-array-names-E4aZEvyi',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\pkg-types': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.pkg-types-z8OYLHHW',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\postcss': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.postcss-jd11VBr9',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\prelude-ls': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.prelude-ls-SsX7Iqyl',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\prisma': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.prisma-CKpvuQpt',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\prop-types': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.prop-types-rLUJASN8',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\punycode': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.punycode-EBfUnh1J',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\pure-rand': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.pure-rand-5LWGtnZn',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\queue-microtask': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.queue-microtask-pB0vlGBM',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\rc9': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.rc9-Hr0NCuve',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\react': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.react-WgszIH0N',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\react-dom': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.react-dom-aRne2sPG',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\react-is': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.react-is-cfLan1ta',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\regexp.prototype.flags': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.regexp.prototype.flags-SbSbcFcu',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\readdirp': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.readdirp-9yD3cXDS',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\reflect.getprototypeof': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.reflect.getprototypeof-6LpmYKNJ',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\resolve': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.resolve-jnOtUI4O',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\resolve-from': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.resolve-from-DQLyCpgJ',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\resolve-pkg-maps': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.resolve-pkg-maps-PRObskhI',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\reusify': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.reusify-lycQpez2',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\run-parallel': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.run-parallel-BPpeqkOO',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\safe-array-concat': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.safe-array-concat-B5LwcrY3',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\safe-push-apply': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.safe-push-apply-x3lArHgh',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\safe-regex-test': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.safe-regex-test-pjO9ej7D',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\scheduler': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.scheduler-w99DT8yn',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\semver': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.semver-rlROhTNf',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\set-function-name': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.set-function-name-tifIX55o',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\set-function-length': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.set-function-length-ZELpo5t8',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\set-proto': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.set-proto-oeVqImEf',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\shebang-command': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.shebang-command-zCXkLFdq',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\sharp': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.sharp-F7pJ4YGg',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\shebang-regex': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.shebang-regex-JvbaJRFo',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\side-channel': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.side-channel-E2llAi3P',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\side-channel-list': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.side-channel-list-4WksBnC6',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\source-map-js': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.source-map-js-mz2E2YUP',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\side-channel-map': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.side-channel-map-3F6UN6xi',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\side-channel-weakmap': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.side-channel-weakmap-NUnjyf78',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\stable-hash': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.stable-hash-rns5OOTw',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\stop-iteration-iterator': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.stop-iteration-iterator-OiV6DtlX',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\string.prototype.matchall': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.string.prototype.matchall-G1XA57Kw',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\string.prototype.includes': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.string.prototype.includes-f1m9ky4e',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\string.prototype.trim': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.string.prototype.trim-eM1k3ZXh',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\string.prototype.trimend': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.string.prototype.trimend-aq1CMhlf',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\string.prototype.repeat': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.string.prototype.repeat-xUL9LQtJ',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\string.prototype.trimstart': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.string.prototype.trimstart-VQnEWqJm',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\strip-bom': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.strip-bom-d13fX5qK',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\styled-jsx': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.styled-jsx-DcbJj09K',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\supports-color': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.supports-color-Jr0dP5Vc',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\strip-json-comments': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.strip-json-comments-qbsjqfPb',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\tailwindcss': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.tailwindcss-lWFGBDUe',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\supports-preserve-symlinks-flag': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.supports-preserve-symlinks-flag-DWW1szZT',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\tapable': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.tapable-WuVglJRm',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\tinyexec': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.tinyexec-fxO8uCUj',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\tinyglobby': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.tinyglobby-JjAohh9R',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\to-regex-range': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.to-regex-range-CrE96j9K',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\ts-api-utils': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.ts-api-utils-UqdCLgO2',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\tsconfig-paths': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.tsconfig-paths-yVliNmtN',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\tslib': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.tslib-FZY8M5yn',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\type-check': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.type-check-gqg6Ls5z',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\typed-array-buffer': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.typed-array-buffer-YcP7igmU',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\typed-array-byte-length': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.typed-array-byte-length-Nftfm6mD',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\typed-array-byte-offset': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.typed-array-byte-offset-vfjSTjeX',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\typescript': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.typescript-fv0nrJj5',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\typed-array-length': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.typed-array-length-9g1krWsD',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\typescript-eslint': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.typescript-eslint-APOBoieV',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\undici-types': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.undici-types-uNxysTWT',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\unbox-primitive': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.unbox-primitive-QdoeG8Jq',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\unrs-resolver': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.unrs-resolver-230Yof7g',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\update-browserslist-db': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.update-browserslist-db-ctVBB1Tv',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\uri-js': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.uri-js-2Ls9VbWd',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\which-boxed-primitive': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.which-boxed-primitive-Baf3RQ6A',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\which-builtin-type': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.which-builtin-type-EEg5Hi43',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\which': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.which-4qBUpR3c',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\which-collection': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.which-collection-BOTyjdvr',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\which-typed-array': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.which-typed-array-lfsKWLQp',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\word-wrap': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.word-wrap-RHiabeT0',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\yallist': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.yallist-mbGw0TX6',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\yocto-queue': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.yocto-queue-it8ncbZs',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\zod': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.zod-xu7HJMFT',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\zod-validation-error': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\.zod-validation-error-QUJ3qlqG',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@alloc\\quick-lru': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@alloc\\.quick-lru-TWP3QZCs',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\code-frame': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\.code-frame-U8fzQcnE',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\compat-data': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\.compat-data-aZnc3OSg',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\generator': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\.generator-Rup2AdpI',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\core': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\.core-zg96OEcf',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\helper-compilation-targets': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\.helper-compilation-targets-0yS26XOX',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\helper-globals': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\.helper-globals-WhI41Njp',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\helper-module-imports': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\.helper-module-imports-KzA0MidW',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\helper-module-transforms': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\.helper-module-transforms-U2aFbTQ6',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\helper-string-parser': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\.helper-string-parser-LwdZHhJP',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\helper-validator-identifier': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\.helper-validator-identifier-uQqYjfej',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\helper-validator-option': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\.helper-validator-option-wROj5bJI',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\helpers': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\.helpers-rGjPh2jF',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\parser': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\.parser-5YTPeSTa',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\template': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\.template-07oOW625',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\traverse': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\.traverse-qTsgATYa',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\types': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@babel\\.types-j7W11vZQ',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\config-array': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\.config-array-Cdm0mh4Z',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\config-helpers': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\.config-helpers-OBiLIATr',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\core': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\.core-tkfjirLP',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\object-schema': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\.object-schema-t3VsNIK9',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\js': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\.js-o4edh25N',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\eslintrc': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\.eslintrc-uDoxvTsw',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\plugin-kit': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint\\.plugin-kit-PXcsFull',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@emnapi\\core': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@emnapi\\.core-WE7P5nAM',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@emnapi\\runtime': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@emnapi\\.runtime-pgvVVfdm',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@emnapi\\wasi-threads': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@emnapi\\.wasi-threads-l2iDwufZ',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint-community\\eslint-utils': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint-community\\.eslint-utils-a3BlGisU',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint-community\\regexpp': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@eslint-community\\.regexpp-YnzTR4HV',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@humanfs\\core': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@humanfs\\.core-XgIkPMtf',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@humanfs\\node': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@humanfs\\.node-JKprtZXR',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@humanfs\\types': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@humanfs\\.types-Q4oxSPA2',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@jridgewell\\gen-mapping': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@jridgewell\\.gen-mapping-vJZpLQGE',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@jridgewell\\remapping': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@jridgewell\\.remapping-9QWoOMRH',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@jridgewell\\sourcemap-codec': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@jridgewell\\.sourcemap-codec-7rsccJn8',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@jridgewell\\resolve-uri': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@jridgewell\\.resolve-uri-eCZa2dC5',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@jridgewell\\trace-mapping': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@jridgewell\\.trace-mapping-bkUtcNlG',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@napi-rs\\wasm-runtime': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@napi-rs\\.wasm-runtime-RWoBPTkh',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@img\\colour': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@img\\.colour-tDKZ7m0x',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@img\\sharp-win32-x64': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@img\\.sharp-win32-x64-66y1NcXu',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@next\\env': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@next\\.env-5N0nZSsl',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@next\\eslint-plugin-next': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@next\\.eslint-plugin-next-k9WTiqG9',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@next\\swc-win32-x64-msvc': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@next\\.swc-win32-x64-msvc-WapFvPXe',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@nodelib\\fs.scandir': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@nodelib\\.fs.scandir-SkbwgrYS',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@nodelib\\fs.stat': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@nodelib\\.fs.stat-cLv7CTas',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@nodelib\\fs.walk': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@nodelib\\.fs.walk-Z5eQ3U4S',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@nolyfill\\is-core-module': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@nolyfill\\.is-core-module-jHxLWCH6',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\client': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\.client-NFDc7bT4',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\config': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\.config-6S8pYeKo',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\debug': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\.debug-TWEDdGKC',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\engines': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\.engines-7kRBocrn',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\engines-version': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\.engines-version-3nTmOmoq',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\fetch-engine': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\.fetch-engine-y34N9zaw',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\get-platform': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@prisma\\.get-platform-rtPUJzdA',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@rtsao\\scc': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@rtsao\\.scc-4zbkXfGX',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@standard-schema\\spec': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@standard-schema\\.spec-94IAs3UR',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@swc\\helpers': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@swc\\.helpers-OBu02QpB',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@tailwindcss\\node': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@tailwindcss\\.node-2NYC4P01',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@tailwindcss\\oxide': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@tailwindcss\\.oxide-v6McHtHp',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@tailwindcss\\oxide-win32-x64-msvc': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@tailwindcss\\.oxide-win32-x64-msvc-apenGt7P',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@tailwindcss\\postcss': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@tailwindcss\\.postcss-zgWmJtRP',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@tybys\\wasm-util': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@tybys\\.wasm-util-axhZARZt',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\eslint-plugin': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\.eslint-plugin-iy8rLNFh',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\project-service': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\.project-service-mm6yJJEF',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\parser': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\.parser-jj9ZAxpt',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\scope-manager': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\.scope-manager-a7jaxaVV',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\tsconfig-utils': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\.tsconfig-utils-BvhsYtBT',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\types': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\.types-u1aRjFKV',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\type-utils': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\.type-utils-v2yb0ijR',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\utils': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\.utils-d3yvHYOA',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\typescript-estree': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\.typescript-estree-tnBoLL0q',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@humanwhocodes\\module-importer': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@humanwhocodes\\.module-importer-J9C7Y9PO',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\visitor-keys': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@typescript-eslint\\.visitor-keys-1jTNtdkW',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@humanwhocodes\\retry': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@humanwhocodes\\.retry-IHB2VOEl',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@types\\estree': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@types\\.estree-NyO5E8Rt',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@types\\json-schema': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@types\\.json-schema-cSfROCD0',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@types\\json5': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@types\\.json5-IQTJV8dX',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@types\\node': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@types\\.node-2g2dtK0L',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@types\\react': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@types\\.react-EQVHOT3i',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@types\\react-dom': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@types\\.react-dom-c5Tqg18N',
+388 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@unrs\\resolver-binding-win32-x64-msvc': 'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@unrs\\.resolver-binding-win32-x64-msvc-kmrVimur'
+388 silly reify }
+389 http fetch GET https://registry.npmmirror.com/@types/react-dom/-/react-dom-19.2.3.tgz attempt 1 failed with EACCES
+390 http fetch GET https://registry.npmmirror.com/@unrs/resolver-binding-win32-x64-msvc/-/resolver-binding-win32-x64-msvc-1.11.1.tgz attempt 1 failed with EACCES
+391 http fetch GET https://registry.npmmirror.com/@types/json-schema/-/json-schema-7.0.15.tgz attempt 1 failed with EACCES
+392 http fetch GET https://registry.npmmirror.com/@types/react/-/react-19.2.14.tgz attempt 1 failed with EACCES
+393 http fetch GET https://registry.npmmirror.com/@humanwhocodes/module-importer/-/module-importer-1.0.1.tgz attempt 1 failed with EACCES
+394 http fetch GET https://registry.npmmirror.com/@types/node/-/node-20.19.41.tgz attempt 1 failed with EACCES
+395 http fetch GET https://registry.npmmirror.com/@types/estree/-/estree-1.0.9.tgz attempt 1 failed with EACCES
+396 http fetch GET https://registry.npmmirror.com/@humanwhocodes/retry/-/retry-0.4.3.tgz attempt 1 failed with EACCES
+397 http fetch GET https://registry.npmmirror.com/@typescript-eslint/typescript-estree/-/typescript-estree-8.59.3.tgz attempt 1 failed with EACCES
+398 http fetch GET https://registry.npmmirror.com/@types/json5/-/json5-0.0.29.tgz attempt 1 failed with EACCES
+399 http fetch GET https://registry.npmmirror.com/@typescript-eslint/visitor-keys/-/visitor-keys-8.59.3.tgz attempt 1 failed with EACCES
+400 http fetch GET https://registry.npmmirror.com/@typescript-eslint/utils/-/utils-8.59.3.tgz attempt 1 failed with EACCES
+401 http fetch GET https://registry.npmmirror.com/@typescript-eslint/type-utils/-/type-utils-8.59.3.tgz attempt 1 failed with EACCES
+402 http fetch GET https://registry.npmmirror.com/@typescript-eslint/types/-/types-8.59.3.tgz attempt 1 failed with EACCES
+403 http fetch GET https://registry.npmmirror.com/@typescript-eslint/scope-manager/-/scope-manager-8.59.3.tgz attempt 1 failed with EACCES
+404 http fetch GET https://registry.npmmirror.com/@types/react-dom/-/react-dom-19.2.3.tgz attempt 2 failed with EACCES
+405 http fetch GET https://registry.npmmirror.com/@unrs/resolver-binding-win32-x64-msvc/-/resolver-binding-win32-x64-msvc-1.11.1.tgz attempt 2 failed with EACCES
+406 http fetch GET https://registry.npmmirror.com/@types/json-schema/-/json-schema-7.0.15.tgz attempt 2 failed with EACCES
+407 http fetch GET https://registry.npmmirror.com/@types/react/-/react-19.2.14.tgz attempt 2 failed with EACCES
+408 http fetch GET https://registry.npmmirror.com/@humanwhocodes/module-importer/-/module-importer-1.0.1.tgz attempt 2 failed with EACCES
+409 http fetch GET https://registry.npmmirror.com/@types/node/-/node-20.19.41.tgz attempt 2 failed with EACCES
+410 http fetch GET https://registry.npmmirror.com/@types/estree/-/estree-1.0.9.tgz attempt 2 failed with EACCES
+411 http fetch GET https://registry.npmmirror.com/@humanwhocodes/retry/-/retry-0.4.3.tgz attempt 2 failed with EACCES
+412 http fetch GET https://registry.npmmirror.com/@typescript-eslint/typescript-estree/-/typescript-estree-8.59.3.tgz attempt 2 failed with EACCES
+413 http fetch GET https://registry.npmmirror.com/@types/json5/-/json5-0.0.29.tgz attempt 2 failed with EACCES
+414 http fetch GET https://registry.npmmirror.com/@typescript-eslint/visitor-keys/-/visitor-keys-8.59.3.tgz attempt 2 failed with EACCES
+415 http fetch GET https://registry.npmmirror.com/@typescript-eslint/utils/-/utils-8.59.3.tgz attempt 2 failed with EACCES
+416 http fetch GET https://registry.npmmirror.com/@typescript-eslint/type-utils/-/type-utils-8.59.3.tgz attempt 2 failed with EACCES
+417 http fetch GET https://registry.npmmirror.com/@typescript-eslint/types/-/types-8.59.3.tgz attempt 2 failed with EACCES
+418 http fetch GET https://registry.npmmirror.com/@typescript-eslint/scope-manager/-/scope-manager-8.59.3.tgz attempt 2 failed with EACCES
+419 http fetch GET https://registry.npmmirror.com/@types/react-dom/-/react-dom-19.2.3.tgz attempt 3 failed with EACCES
+420 http fetch GET https://registry.npmmirror.com/@unrs/resolver-binding-win32-x64-msvc/-/resolver-binding-win32-x64-msvc-1.11.1.tgz attempt 3 failed with EACCES
+421 verbose reify failed optional dependency C:\Users\expert\Documents\Codex\2026-06-03\c-users-expert-desktop-novax-pro\node_modules\@unrs\resolver-binding-win32-x64-msvc
+422 silly reify mark deleted [
+422 silly reify   'C:\\Users\\expert\\Documents\\Codex\\2026-06-03\\c-users-expert-desktop-novax-pro\\node_modules\\@unrs\\resolver-binding-win32-x64-msvc'
+422 silly reify ]
+423 http fetch GET https://registry.npmmirror.com/@types/json-schema/-/json-schema-7.0.15.tgz attempt 3 failed with EACCES
+424 http fetch GET https://registry.npmmirror.com/@types/react/-/react-19.2.14.tgz attempt 3 failed with EACCES
+425 http fetch GET https://registry.npmmirror.com/@humanwhocodes/module-importer/-/module-importer-1.0.1.tgz attempt 3 failed with EACCES
+426 http fetch GET https://registry.npmmirror.com/@types/node/-/node-20.19.41.tgz attempt 3 failed with EACCES
+427 http fetch GET https://registry.npmmirror.com/@types/estree/-/estree-1.0.9.tgz attempt 3 failed with EACCES
+428 http fetch GET https://registry.npmmirror.com/@humanwhocodes/retry/-/retry-0.4.3.tgz attempt 3 failed with EACCES
+429 http fetch GET https://registry.npmmirror.com/@typescript-eslint/typescript-estree/-/typescript-estree-8.59.3.tgz attempt 3 failed with EACCES
+430 http fetch GET https://registry.npmmirror.com/@types/json5/-/json5-0.0.29.tgz attempt 3 failed with EACCES
+431 http fetch GET https://registry.npmmirror.com/@typescript-eslint/visitor-keys/-/visitor-keys-8.59.3.tgz attempt 3 failed with EACCES
+432 http fetch GET https://registry.npmmirror.com/@typescript-eslint/utils/-/utils-8.59.3.tgz attempt 3 failed with EACCES
+433 http fetch GET https://registry.npmmirror.com/@typescript-eslint/type-utils/-/type-utils-8.59.3.tgz attempt 3 failed with EACCES
+434 http fetch GET https://registry.npmmirror.com/@typescript-eslint/types/-/types-8.59.3.tgz attempt 3 failed with EACCES
+435 http fetch GET https://registry.npmmirror.com/@typescript-eslint/scope-manager/-/scope-manager-8.59.3.tgz attempt 3 failed with EACCES
+436 verbose cwd C:\Users\expert\Documents\Codex\2026-06-03\c-users-expert-desktop-novax-pro
+437 verbose os Windows_NT 10.0.26200
+438 verbose node v24.15.0
+439 verbose npm  v11.12.1
+440 error Exit handler never called!
+441 error This is an error with npm itself. Please report this error at:
+442 error   <https://github.com/npm/cli/issues>
+443 verbose exit 1
+444 verbose code 1
+445 error A complete log of this run can be found in: C:\Users\expert\Documents\Codex\2026-06-03\c-users-expert-desktop-novax-pro\.npm-cache\_logs\2026-06-03T13_16_13_534Z-debug-0.log

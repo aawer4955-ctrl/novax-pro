@@ -1,0 +1,28 @@
+0 verbose cli D:\Program Files\nodejs\node.exe D:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:D:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\expert\Documents\Codex\2026-06-03\c-users-expert-desktop-novax-pro\.npmrc
+5 silly config load:file:C:\Users\expert\.npmrc
+6 silly config load:file:C:\Users\expert\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm ls next react lightweight-charts
+8 verbose argv "ls" "next" "react" "lightweight-charts" "--depth" "0" "--cache" ".\\.npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\expert\Documents\Codex\2026-06-03\c-users-expert-desktop-novax-pro\.npm-cache\_logs\2026-06-03T13_12_20_163Z-
+10 verbose logfile C:\Users\expert\Documents\Codex\2026-06-03\c-users-expert-desktop-novax-pro\.npm-cache\_logs\2026-06-03T13_12_20_163Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 verbose stack Error: invalid: next@ C:\Users\expert\Documents\Codex\2026-06-03\c-users-expert-desktop-novax-pro\node_modules\next
+13 verbose stack invalid: react@ C:\Users\expert\Documents\Codex\2026-06-03\c-users-expert-desktop-novax-pro\node_modules\react
+13 verbose stack     at LS.exec (D:\Program Files\nodejs\node_modules\npm\lib\commands\ls.js:204:9)
+13 verbose stack     at async Npm.exec (D:\Program Files\nodejs\node_modules\npm\lib\npm.js:193:9)
+13 verbose stack     at async module.exports (D:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:67:5)
+14 error code ELSPROBLEMS
+15 error invalid: next@ C:\Users\expert\Documents\Codex\2026-06-03\c-users-expert-desktop-novax-pro\node_modules\next
+15 error invalid: react@ C:\Users\expert\Documents\Codex\2026-06-03\c-users-expert-desktop-novax-pro\node_modules\react
+16 verbose cwd C:\Users\expert\Documents\Codex\2026-06-03\c-users-expert-desktop-novax-pro
+17 verbose os Windows_NT 10.0.26200
+18 verbose node v24.15.0
+19 verbose npm  v11.12.1
+20 verbose exit 1
+21 verbose code 1
+22 error A complete log of this run can be found in: C:\Users\expert\Documents\Codex\2026-06-03\c-users-expert-desktop-novax-pro\.npm-cache\_logs\2026-06-03T13_12_20_163Z-debug-0.log

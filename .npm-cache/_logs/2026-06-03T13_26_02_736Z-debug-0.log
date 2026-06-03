@@ -1,0 +1,19 @@
+0 verbose cli D:\Program Files\nodejs\node.exe D:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:D:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\expert\Documents\Codex\2026-06-03\c-users-expert-desktop-novax-pro\.npmrc
+5 silly config load:file:C:\Users\expert\.npmrc
+6 silly config load:file:C:\Users\expert\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm ls lightweight-charts
+8 verbose argv "ls" "lightweight-charts" "--cache" ".\\.npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\expert\Documents\Codex\2026-06-03\c-users-expert-desktop-novax-pro\.npm-cache\_logs\2026-06-03T13_26_02_736Z-
+10 verbose logfile C:\Users\expert\Documents\Codex\2026-06-03\c-users-expert-desktop-novax-pro\.npm-cache\_logs\2026-06-03T13_26_02_736Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 verbose cwd C:\Users\expert\Documents\Codex\2026-06-03\c-users-expert-desktop-novax-pro
+14 verbose os Windows_NT 10.0.26200
+15 verbose node v24.15.0
+16 verbose npm  v11.12.1
+17 verbose exit 1
+18 verbose code 1

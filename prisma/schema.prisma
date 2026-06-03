@@ -1,0 +1,374 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+enum UserRole {
+  USER
+  ADMIN
+}
+
+enum KycStatus {
+  UNVERIFIED
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+enum AccountStatus {
+  ACTIVE
+  FROZEN
+  SUSPENDED
+}
+
+enum RiskLevel {
+  LOW
+  MEDIUM
+  HIGH
+}
+
+enum LedgerType {
+  DEPOSIT
+  WITHDRAWAL
+  TRADE
+  FEE
+  ADJUSTMENT
+  FREEZE
+  UNFREEZE
+}
+
+enum DepositSourceType {
+  CARD
+  BANK_TRANSFER
+  CRYPTO
+}
+
+enum DepositStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  FAILED
+}
+
+enum AmlStatus {
+  NOT_REQUIRED
+  PENDING
+  PASSED
+  FAILED
+}
+
+enum WithdrawalStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  SENT
+  FAILED
+}
+
+enum OrderSide {
+  BUY
+  SELL
+}
+
+enum OrderType {
+  MARKET
+  LIMIT
+}
+
+enum OrderStatus {
+  OPEN
+  FILLED
+  CANCELED
+  REJECTED
+}
+
+enum DepositAddressSourceType {
+  AUTO_GENERATED
+  ADMIN_ASSIGNED
+}
+
+enum DepositAddressStatus {
+  ACTIVE
+  DISABLED
+}
+
+model User {
+  id              String        @id @default(cuid())
+  uid             String        @unique
+  email           String        @unique
+  passwordHash    String
+  country         String
+  language        String        @default("en")
+  role            UserRole      @default(USER)
+  kycStatus       KycStatus     @default(UNVERIFIED)
+  accountStatus   AccountStatus @default(ACTIVE)
+  riskLevel       RiskLevel     @default(LOW)
+  termsAcceptedAt DateTime?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  kycProfiles        KycProfile[]
+  balances           AssetBalance[]
+  ledgerEntries      LedgerEntry[]
+  depositRequests    DepositRequest[]
+  depositAddresses   UserDepositAddress[] @relation("UserDepositAddresses")
+  assignedDepositAddresses UserDepositAddress[] @relation("AdminAssignedDepositAddresses")
+  withdrawalRequests WithdrawalRequest[]
+  withdrawalAddresses WithdrawalAddress[]
+  orders             Order[]
+  riskEvents         RiskEvent[]
+  adminAuditLogs     AuditLog[]          @relation("AdminAuditLogs")
+}
+
+model KycProfile {
+  id                  String    @id @default(cuid())
+  userId              String
+  provider            String
+  providerApplicantId String?
+  status              KycStatus @default(PENDING)
+  level               String
+  country             String
+  submittedAt         DateTime  @default(now())
+  reviewedAt          DateTime?
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@index([userId])
+  @@index([provider, providerApplicantId])
+}
+
+model AssetBalance {
+  id        String   @id @default(cuid())
+  userId    String
+  asset     String
+  available Decimal  @db.Decimal(36, 18)
+  frozen    Decimal  @db.Decimal(36, 18)
+  updatedAt DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@unique([userId, asset])
+  @@index([asset])
+}
+
+model LedgerEntry {
+  id            String     @id @default(cuid())
+  userId        String
+  asset         String
+  type          LedgerType
+  amount        Decimal    @db.Decimal(36, 18)
+  balanceBefore Decimal    @db.Decimal(36, 18)
+  balanceAfter  Decimal    @db.Decimal(36, 18)
+  referenceType String?
+  referenceId   String?
+  status        String
+  createdAt     DateTime   @default(now())
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@index([userId, asset])
+  @@index([referenceType, referenceId])
+}
+
+model DepositRequest {
+  id          String            @id @default(cuid())
+  userId      String
+  asset       String
+  network     String
+  amount      Decimal           @db.Decimal(36, 18)
+  sourceType  DepositSourceType
+  provider    String
+  providerRef String?
+  txHash      String?
+  status      DepositStatus     @default(PENDING)
+  amlStatus   AmlStatus         @default(NOT_REQUIRED)
+  createdAt   DateTime          @default(now())
+  reviewedAt  DateTime?
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@index([userId, status])
+  @@index([provider, providerRef])
+}
+
+model WithdrawalRequest {
+  id                 String           @id @default(cuid())
+  userId             String
+  asset              String
+  network            String
+  amount             Decimal          @db.Decimal(36, 18)
+  fee                Decimal          @db.Decimal(36, 18)
+  destinationAddress String
+  provider           String
+  providerRef        String?
+  amlStatus          AmlStatus        @default(PENDING)
+  status             WithdrawalStatus @default(PENDING)
+  createdAt          DateTime         @default(now())
+  reviewedAt         DateTime?
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@index([userId, status])
+  @@index([provider, providerRef])
+}
+
+model Order {
+  id            String      @id @default(cuid())
+  userId        String
+  pair          String
+  side          OrderSide
+  type          OrderType
+  amount        Decimal     @db.Decimal(36, 18)
+  price         Decimal?    @db.Decimal(36, 18)
+  total         Decimal     @default(0) @db.Decimal(36, 18)
+  fee           Decimal     @db.Decimal(36, 18)
+  filledAmount  Decimal     @default(0) @db.Decimal(36, 18)
+  status        OrderStatus @default(OPEN)
+  regionAllowed Boolean     @default(false)
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@index([userId, pair])
+  @@index([status])
+}
+
+model AuditLog {
+  id         String   @id @default(cuid())
+  adminId    String
+  action     String
+  targetType String
+  targetId   String
+  ipAddress  String?
+  userAgent  String?
+  createdAt  DateTime @default(now())
+
+  admin User @relation("AdminAuditLogs", fields: [adminId], references: [id])
+
+  @@index([adminId])
+  @@index([targetType, targetId])
+}
+
+model RiskEvent {
+  id        String    @id @default(cuid())
+  userId    String
+  type      String
+  severity  RiskLevel
+  details   Json
+  createdAt DateTime  @default(now())
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@index([userId, severity])
+}
+
+model RegionRule {
+  id        String   @id @default(cuid())
+  country   String
+  feature   String
+  allowed   Boolean  @default(false)
+  reason    String?
+  updatedAt DateTime @updatedAt
+
+  @@unique([country, feature])
+}
+
+model MarketPair {
+  id          String   @id @default(cuid())
+  symbol      String   @unique
+  baseAsset   String
+  quoteAsset  String
+  latestPrice Decimal  @db.Decimal(36, 18)
+  change24h   Decimal  @db.Decimal(18, 6)
+  high24h     Decimal  @default(0) @db.Decimal(36, 18)
+  low24h      Decimal  @default(0) @db.Decimal(36, 18)
+  volume24h   Decimal  @db.Decimal(36, 18)
+  sortOrder   Int      @default(0)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([isActive, sortOrder])
+}
+
+model Coin {
+  id          String   @id @default(cuid())
+  symbol      String   @unique
+  name        String
+  iconUrl     String?
+  description String?
+  latestPrice Decimal  @db.Decimal(36, 18)
+  change24h   Decimal  @db.Decimal(18, 6)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([isActive, symbol])
+}
+
+model NewsArticle {
+  id          String   @id @default(cuid())
+  title       String
+  imageUrl    String?
+  content     String
+  publishedAt DateTime @default(now())
+  isActive    Boolean  @default(true)
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([isActive, sortOrder, publishedAt])
+}
+
+model SiteSetting {
+  id        String   @id @default(cuid())
+  key       String   @unique
+  value     String
+  updatedAt DateTime @updatedAt
+}
+
+model UserDepositAddress {
+  id                String                   @id @default(cuid())
+  userId            String
+  asset             String
+  network           String
+  address           String
+  memo              String?
+  label             String?
+  sourceType        DepositAddressSourceType @default(ADMIN_ASSIGNED)
+  status            DepositAddressStatus     @default(ACTIVE)
+  assignedByAdminId String?
+  assignedAt        DateTime?
+  createdAt         DateTime                 @default(now())
+  updatedAt         DateTime                 @updatedAt
+
+  user            User  @relation("UserDepositAddresses", fields: [userId], references: [id])
+  assignedByAdmin User? @relation("AdminAssignedDepositAddresses", fields: [assignedByAdminId], references: [id])
+
+  @@index([userId, asset, network, status])
+  @@index([asset, network])
+  @@index([assignedByAdminId])
+}
+
+model WithdrawalAddress {
+  id            String   @id @default(cuid())
+  userId        String
+  asset         String
+  network       String
+  label         String
+  address       String
+  memo          String?
+  isWhitelisted Boolean  @default(false)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@index([userId, asset, network])
+}
