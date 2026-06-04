@@ -23,6 +23,8 @@ export default function AdminOrdersPage() {
   const [orders, setOrders] = useState<OrderRow[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [adminId, setAdminId] = useState("");
+  const [reason, setReason] = useState("");
 
   const load = async () => {
     setLoading(true);
@@ -45,7 +47,7 @@ export default function AdminOrdersPage() {
     const response = await fetch("/api/admin/orders", {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ orderId, status }),
+      body: JSON.stringify({ orderId, status, adminId, reason }),
     });
     const data = await response.json();
     if (!response.ok) return alert(data.error ?? "Update failed");
@@ -58,11 +60,16 @@ export default function AdminOrdersPage() {
         <div className="mx-auto max-w-7xl">
           <p className="text-xs font-bold uppercase tracking-[0.3em] text-cyan-300">Admin Console</p>
           <h1 className="mt-3 text-4xl font-black">Order Management</h1>
-          <p className="mt-3 text-slate-400">View user orders and manually update order status.</p>
+          <p className="mt-3 text-slate-400">View user orders, filter operationally, and cancel abnormal orders with audit records.</p>
         </div>
       </header>
 
       <section className="mx-auto max-w-7xl px-6 py-8">
+        <div className="mb-5 grid gap-3 rounded-lg border border-white/10 bg-white/[0.05] p-5 md:grid-cols-3">
+          <input value={adminId} onChange={(event) => setAdminId(event.target.value)} placeholder="Admin ID" className="rounded-lg border border-white/10 bg-black/30 px-4 py-3 outline-none" />
+          <input value={reason} onChange={(event) => setReason(event.target.value)} placeholder="Reason for status changes" className="rounded-lg border border-white/10 bg-black/30 px-4 py-3 outline-none" />
+          <button onClick={load} className="rounded-lg bg-cyan-300 px-4 py-3 text-sm font-black text-slate-950">Refresh</button>
+        </div>
         {error && <div className="mb-4 rounded-2xl border border-rose-300/20 bg-rose-300/10 p-4 text-sm font-bold text-rose-200">{error}</div>}
         <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/[0.05]">
           <div className="flex items-center justify-between border-b border-white/10 px-5 py-4">

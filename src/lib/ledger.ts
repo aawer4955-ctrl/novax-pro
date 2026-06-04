@@ -10,6 +10,8 @@ type LedgerMutation = {
   type?: LedgerType;
   referenceType?: string;
   referenceId?: string;
+  reason?: string;
+  createdByAdminId?: string;
   status?: string;
 };
 
@@ -18,10 +20,12 @@ type CreateLedgerInput = {
   asset: string;
   type: LedgerType;
   amount: Prisma.Decimal;
-  balanceBefore: Prisma.Decimal;
-  balanceAfter: Prisma.Decimal;
+  beforeBalance: Prisma.Decimal;
+  afterBalance: Prisma.Decimal;
   referenceType?: string;
   referenceId?: string;
+  reason?: string;
+  createdByAdminId?: string;
   status?: string;
 };
 
@@ -71,10 +75,12 @@ export async function createLedgerEntry(input: CreateLedgerInput, client?: DbCli
     asset: input.asset.toUpperCase(),
     type: input.type,
     amount: input.amount,
-    balanceBefore: input.balanceBefore,
-    balanceAfter: input.balanceAfter,
+    beforeBalance: input.beforeBalance,
+    afterBalance: input.afterBalance,
     referenceType: input.referenceType,
     referenceId: input.referenceId,
+    reason: input.reason,
+    createdByAdminId: input.createdByAdminId,
     status: input.status ?? "POSTED",
   };
 
@@ -102,10 +108,12 @@ export async function creditBalance(input: LedgerMutation, client?: DbClient) {
         asset: input.asset,
         type: input.type ?? LedgerType.DEPOSIT,
         amount,
-        balanceBefore: before,
-        balanceAfter: after,
+        beforeBalance: before,
+        afterBalance: after,
         referenceType: input.referenceType,
         referenceId: input.referenceId,
+        reason: input.reason,
+        createdByAdminId: input.createdByAdminId,
         status: input.status,
       },
       tx,
@@ -137,10 +145,12 @@ export async function debitBalance(input: LedgerMutation, client?: DbClient) {
         asset: input.asset,
         type: input.type ?? LedgerType.WITHDRAWAL,
         amount: amount.negated(),
-        balanceBefore: before,
-        balanceAfter: after,
+        beforeBalance: before,
+        afterBalance: after,
         referenceType: input.referenceType,
         referenceId: input.referenceId,
+        reason: input.reason,
+        createdByAdminId: input.createdByAdminId,
         status: input.status,
       },
       tx,
@@ -175,10 +185,12 @@ export async function freezeBalance(input: LedgerMutation, client?: DbClient) {
         asset: input.asset,
         type: LedgerType.FREEZE,
         amount: amount.negated(),
-        balanceBefore: before,
-        balanceAfter: after,
+        beforeBalance: before,
+        afterBalance: after,
         referenceType: input.referenceType,
         referenceId: input.referenceId,
+        reason: input.reason,
+        createdByAdminId: input.createdByAdminId,
         status: input.status,
       },
       tx,
@@ -213,10 +225,12 @@ export async function unfreezeBalance(input: LedgerMutation, client?: DbClient) 
         asset: input.asset,
         type: LedgerType.UNFREEZE,
         amount,
-        balanceBefore: before,
-        balanceAfter: after,
+        beforeBalance: before,
+        afterBalance: after,
         referenceType: input.referenceType,
         referenceId: input.referenceId,
+        reason: input.reason,
+        createdByAdminId: input.createdByAdminId,
         status: input.status,
       },
       tx,
@@ -248,10 +262,12 @@ export async function settleFrozenWithdrawal(input: LedgerMutation, client?: DbC
         asset: input.asset,
         type: LedgerType.WITHDRAWAL,
         amount: amount.negated(),
-        balanceBefore: before,
-        balanceAfter: after,
+        beforeBalance: before,
+        afterBalance: after,
         referenceType: input.referenceType,
         referenceId: input.referenceId,
+        reason: input.reason,
+        createdByAdminId: input.createdByAdminId,
         status: input.status,
       },
       tx,

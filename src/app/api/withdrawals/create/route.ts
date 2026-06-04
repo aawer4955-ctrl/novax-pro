@@ -23,6 +23,7 @@ export async function POST(request: Request) {
 
   try {
     assertCanTrade(user, "withdrawal");
+    if (user.withdrawalRestricted) throw new Error("Withdrawals are restricted for this account.");
     const limit = checkWithdrawalLimit(user, Number(amount));
     if (!limit.allowed) throw new Error(limit.error);
   } catch (error) {

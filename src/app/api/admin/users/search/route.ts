@@ -18,11 +18,16 @@ export async function GET(request: Request) {
       id: true,
       uid: true,
       email: true,
+      role: true,
       kycStatus: true,
       accountStatus: true,
+      withdrawalRestricted: true,
+      createdAt: true,
+      lastLoginAt: true,
+      balances: { select: { asset: true, available: true, frozen: true } },
     },
     orderBy: { createdAt: "desc" },
-    take: 12,
+    take: 50,
   });
 
   return platformJson({ users });

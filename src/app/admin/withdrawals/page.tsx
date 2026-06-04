@@ -1,29 +1,61 @@
-﻿"use client";
+"use client";
 
-import Link from "next/link";
-import { useState } from "react";
-import { AdminComplianceStrip } from "@/components/admin/AdminComplianceStrip";
+import { useEffect, useState } from "react";
 
-type WithdrawalStatus = "Pending" | "Risk Review" | "Approved" | "Rejected" | "Risk";
-type Withdrawal = { id: string; email: string; coin: string; network: string; address: string; amount: string; fee: string; status: WithdrawalStatus };
+type Withdrawal = { id: string; userId: string; asset: string; network: string; amount: string; fee: string; destinationAddress: string; status: string; amlStatus: string; adminNote: string | null; createdAt: string; user?: { email: string; uid: string; riskLevel: string; withdrawalRestricted: boolean } };
 
-const initialWithdrawals: Withdrawal[] = [
-  { id: "WD-8128", email: "mira.liu@example.com", coin: "USDT", network: "TRC20", address: "TQ9x...7Lpa", amount: "3,500.00", fee: "2.00", status: "Pending" },
-  { id: "WD-8129", email: "opsdesk@example.com", coin: "ETH", network: "ERC20", address: "0x71ad...930e", amount: "2.4000", fee: "0.0040", status: "Risk Review" },
-  { id: "WD-8130", email: "tradingdesk@example.com", coin: "BTC", network: "Bitcoin", address: "bc1q...p42m", amount: "0.6200", fee: "0.0004", status: "Pending" },
-];
+const actions = ["APPROVE", "REJECT", "PROCESSING", "COMPLETED"] as const;
 
 export default function AdminWithdrawalsPage() {
-  const [withdrawals, setWithdrawals] = useState<Withdrawal[]>(initialWithdrawals);
-  const updateStatus = (id: string, status: WithdrawalStatus) => setWithdrawals((current) => current.map((item) => (item.id === id ? { ...item, status } : item)));
+  const [withdrawals, setWithdrawals] = useState<Withdrawal[]>([]);
+  const [adminId, setAdminId] = useState("");
+  const [reason, setReason] = useState("");
+  const [message, setMessage] = useState("");
+
+  const load = async () => {
+    const response = await fetch("/api/admin/withdrawals", { cache: "no-store" });
+    const data = await response.json();
+    setWithdrawals(data.withdrawals ?? []);
+  };
+
+  useEffect(() => { void load(); }, []);
+
+  async function review(withdrawalId: string, action: typeof actions[number]) {
+    const response = await fetch("/api/admin/withdrawals/review", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ withdrawalId, action, adminId, reason }) });
+    const data = await response.json();
+    setMessage(response.ok ? "Withdrawal action recorded." : data.error ?? "Review failed.");
+    await load();
+  }
 
   return (
     <main className="min-h-screen bg-[#050814] text-white">
-      <header className="border-b border-white/10 bg-[#050814]/90 backdrop-blur"><div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5"><Link href="/admin"><h1 className="text-2xl font-black">NovaX Admin</h1><p className="text-xs uppercase tracking-[0.3em] text-cyan-300">Withdrawal Review</p></Link><Link href="/admin" className="text-sm text-slate-300 hover:text-white">Dashboard</Link></div></header>
-      <AdminComplianceStrip />
-      <section className="mx-auto max-w-7xl px-6 py-12"><div className="mb-8"><p className="text-sm font-bold uppercase tracking-[0.3em] text-cyan-300">Risk Operations</p><h2 className="mt-3 text-4xl font-black">提现审核</h2><p className="mt-3 text-slate-400">审核动作仅更新状态。</p></div><div className="overflow-hidden rounded-3xl border border-white/10 bg-white/[0.05]"><div className="overflow-x-auto"><table className="w-full min-w-[1150px] text-left text-sm"><thead className="bg-black/25 text-slate-400"><tr><th className="px-6 py-4">申请 ID</th><th className="px-6 py-4">用户邮箱</th><th className="px-6 py-4">币种</th><th className="px-6 py-4">网络</th><th className="px-6 py-4">提现地址</th><th className="px-6 py-4">金额</th><th className="px-6 py-4">手续费</th><th className="px-6 py-4">状态</th><th className="px-6 py-4 text-right">操作</th></tr></thead><tbody>{withdrawals.map((item) => (<tr key={item.id} className="border-t border-white/5"><td className="px-6 py-5 font-bold">{item.id}</td><td className="px-6 py-5 text-slate-300">{item.email}</td><td className="px-6 py-5">{item.coin}</td><td className="px-6 py-5 text-slate-300">{item.network}</td><td className="px-6 py-5 font-mono text-xs text-cyan-200">{item.address}</td><td className="px-6 py-5 font-bold text-rose-300">{item.amount}</td><td className="px-6 py-5 text-slate-300">{item.fee}</td><td className="px-6 py-5"><span className="rounded-full bg-amber-300/10 px-3 py-1 text-xs font-bold text-amber-200">{item.status}</span></td><td className="px-6 py-5"><div className="flex justify-end gap-2"><button onClick={() => updateStatus(item.id, "Approved")} className="rounded-xl border border-emerald-300/30 px-3 py-2 text-xs font-bold text-emerald-200 hover:bg-emerald-400/10">通过</button><button onClick={() => updateStatus(item.id, "Rejected")} className="rounded-xl border border-rose-300/30 px-3 py-2 text-xs font-bold text-rose-200 hover:bg-rose-400/10">拒绝</button><button onClick={() => updateStatus(item.id, "Risk")} className="rounded-xl border border-amber-300/30 px-3 py-2 text-xs font-bold text-amber-100 hover:bg-amber-300/10">标记风险</button></div></td></tr>))}</tbody></table></div></div></section>
+      <header className="border-b border-white/10 px-6 py-6"><div className="mx-auto max-w-7xl"><p className="text-xs font-bold uppercase tracking-[0.3em] text-cyan-300">Finance Operations</p><h1 className="mt-3 text-4xl font-black">Withdrawals</h1><p className="mt-3 text-slate-400">Review withdrawal applications, risk signals, and internal processing status.</p></div></header>
+      <section className="mx-auto max-w-7xl space-y-5 px-6 py-8">
+        <div className="grid gap-3 rounded-lg border border-white/10 bg-white/[0.05] p-5 md:grid-cols-[1fr_2fr_auto]">
+          <input value={adminId} onChange={(e) => setAdminId(e.target.value)} placeholder="Admin ID" className="rounded-lg border border-white/10 bg-black/30 px-4 py-3 outline-none" />
+          <input value={reason} onChange={(e) => setReason(e.target.value)} placeholder="Review note / reason" className="rounded-lg border border-white/10 bg-black/30 px-4 py-3 outline-none" />
+          <button onClick={load} className="rounded-lg bg-cyan-300 px-5 py-3 font-black text-slate-950">Refresh</button>
+        </div>
+        {message && <div className="rounded-lg border border-cyan-300/20 bg-cyan-300/10 p-4 text-sm font-bold text-cyan-100">{message}</div>}
+        <div className="overflow-hidden rounded-lg border border-white/10 bg-white/[0.05]">
+          <table className="w-full min-w-[1200px] text-left text-sm">
+            <thead className="bg-black/25 text-slate-400"><tr>{["ID", "User", "Risk", "Asset", "Network", "Amount", "Fee", "Address", "Status", "AML", "Note", "Actions"].map((item) => <th key={item} className="px-5 py-4">{item}</th>)}</tr></thead>
+            <tbody>
+              {withdrawals.map((item) => (
+                <tr key={item.id} className="border-t border-white/5">
+                  <td className="px-5 py-4 font-mono text-xs text-slate-400">{item.id.slice(0, 10)}</td>
+                  <td className="px-5 py-4"><p className="font-bold">{item.user?.email ?? item.userId}</p><p className="text-xs text-slate-500">{item.user?.uid}</p></td>
+                  <td className="px-5 py-4">{item.user?.riskLevel}{item.user?.withdrawalRestricted ? <span className="ml-2 text-amber-200">Restricted</span> : null}</td>
+                  <td className="px-5 py-4 text-cyan-200">{item.asset}</td><td className="px-5 py-4">{item.network}</td><td className="px-5 py-4 text-rose-300">{item.amount}</td><td className="px-5 py-4">{item.fee}</td>
+                  <td className="px-5 py-4 font-mono text-xs text-slate-400">{item.destinationAddress}</td><td className="px-5 py-4">{item.status}</td><td className="px-5 py-4">{item.amlStatus}</td><td className="px-5 py-4 text-slate-400">{item.adminNote ?? "-"}</td>
+                  <td className="px-5 py-4"><div className="flex flex-wrap gap-2">{actions.map((action) => <button key={action} onClick={() => review(item.id, action)} className="rounded-lg border border-white/15 px-3 py-2 text-xs font-bold">{action}</button>)}</div></td>
+                </tr>
+              ))}
+              {withdrawals.length === 0 && <tr><td colSpan={12} className="px-5 py-8 text-center text-slate-400">No withdrawal records.</td></tr>}
+            </tbody>
+          </table>
+        </div>
+      </section>
     </main>
   );
 }
-
-

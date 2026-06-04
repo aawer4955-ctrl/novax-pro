@@ -1,23 +1,24 @@
 import { DepositAddressStatus, UserRole } from "@prisma/client";
+import { createAuditLog } from "@/lib/admin-audit";
 import { createDefaultAdminIfMissing } from "@/lib/db-auth";
 import { prisma } from "@/lib/prisma";
 import { errorJson, platformJson, readJson } from "../../../_utils";
 
-async function resolveAdminId(adminId?: string) {
+async function resolveAdmin(adminId?: string) {
   const requestedAdminId = String(adminId ?? "").trim();
   if (requestedAdminId) {
     const admin = await prisma.user.findUnique({ where: { id: requestedAdminId } });
-    if (admin?.role === UserRole.ADMIN) return admin.id;
+    if (admin && admin.role !== UserRole.USER) return admin;
   }
 
   const existingAdmin = await prisma.user.findFirst({
-    where: { role: UserRole.ADMIN },
+    where: { role: { not: UserRole.USER } },
     orderBy: { createdAt: "asc" },
   });
-  if (existingAdmin) return existingAdmin.id;
+  if (existingAdmin) return existingAdmin;
 
   const defaultAdmin = await createDefaultAdminIfMissing();
-  return defaultAdmin.id;
+  return defaultAdmin;
 }
 
 export async function GET() {
@@ -47,22 +48,30 @@ export async function POST(request: Request) {
 
   if (!id) return errorJson("addressId is required.");
 
-  const adminId = await resolveAdminId(String(body.adminId ?? ""));
+  const reason = String(body.reason ?? "Address status update").trim();
+  const admin = await resolveAdmin(String(body.adminId ?? ""));
+  const adminId = admin.id;
 
   if (type === "withdrawal") {
+    const before = await prisma.withdrawalAddress.findUnique({ where: { id } });
     const withdrawalAddress = await prisma.withdrawalAddress.update({
       where: { id },
       data: { isWhitelisted: enabled },
       include: { user: { select: { id: true, uid: true, email: true, kycStatus: true, accountStatus: true } } },
     });
-    const auditLog = await prisma.auditLog.create({
-      data: {
+    const auditLog = await createAuditLog(
+      {
         adminId,
+        adminEmail: admin.email,
         action: enabled ? "WITHDRAWAL_ADDRESS_ENABLED" : "WITHDRAWAL_ADDRESS_DISABLED",
         targetType: "WithdrawalAddress",
         targetId: withdrawalAddress.id,
+        beforeData: before,
+        afterData: withdrawalAddress,
+        reason,
+        request,
       },
-    });
+    );
     return platformJson({ address: withdrawalAddress, auditLog });
   }
 
@@ -92,14 +101,20 @@ export async function POST(request: Request) {
       },
     });
 
-    const auditLog = await tx.auditLog.create({
-      data: {
+    const auditLog = await createAuditLog(
+      {
         adminId,
+        adminEmail: admin.email,
         action: enabled ? "DEPOSIT_ADDRESS_ENABLED" : "DEPOSIT_ADDRESS_DISABLED",
         targetType: "UserDepositAddress",
         targetId: depositAddress.id,
+        beforeData: existing,
+        afterData: depositAddress,
+        reason,
+        request,
       },
-    });
+      tx,
+    );
 
     return { depositAddress, auditLog };
   });
