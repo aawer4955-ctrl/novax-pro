@@ -11,10 +11,10 @@ export async function POST(request: Request) {
   const expectedCode = process.env.EXCHANGE_ACCESS_CODE ?? DEFAULT_ACCESS_CODE;
 
   if (code !== expectedCode) {
-    return NextResponse.json({ ok: false, message: "Invalid access code" }, { status: 401 });
+    return NextResponse.json({ ok: false, success: false, message: "Invalid access code" }, { status: 401 });
   }
 
-  const response = NextResponse.json({ ok: true });
+  const response = NextResponse.json({ ok: true, success: true });
   response.cookies.set({
     name: ACCESS_COOKIE,
     value: ACCESS_GRANTED_VALUE,

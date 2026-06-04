@@ -21,14 +21,16 @@ export default function AccessClient() {
         body: JSON.stringify({ code }),
       });
       const data = await response.json();
-      if (!response.ok || !data.ok) {
+      if (!response.ok || !(data.ok === true || data.success === true)) {
         setError(data.message ?? "Invalid access code");
         return;
       }
 
       const next = searchParams.get("next") || "/exchange-demo";
-      router.push(next.startsWith("/") ? next : "/exchange-demo");
+      const target = next.startsWith("/") ? next : "/exchange-demo";
+      router.push(target);
       router.refresh();
+      window.location.assign(target);
     } catch {
       setError("Invalid access code");
     } finally {
