@@ -174,8 +174,10 @@ model LedgerEntry {
   asset         String
   type          LedgerType
   amount        Decimal    @db.Decimal(36, 18)
-  beforeBalance Decimal    @db.Decimal(36, 18)
-  afterBalance  Decimal    @db.Decimal(36, 18)
+  balanceBefore Decimal    @default(0) @db.Decimal(36, 18)
+  balanceAfter  Decimal    @default(0) @db.Decimal(36, 18)
+  beforeBalance Decimal    @default(0) @db.Decimal(36, 18)
+  afterBalance  Decimal    @default(0) @db.Decimal(36, 18)
   referenceType String?
   referenceId   String?
   reason        String?
@@ -261,7 +263,7 @@ model Order {
 model AuditLog {
   id         String   @id @default(cuid())
   adminId    String
-  adminEmail String
+  adminEmail String   @default("unknown-admin")
   action     String
   targetType String
   targetId   String

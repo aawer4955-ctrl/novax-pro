@@ -75,6 +75,8 @@ export async function createLedgerEntry(input: CreateLedgerInput, client?: DbCli
     asset: input.asset.toUpperCase(),
     type: input.type,
     amount: input.amount,
+    balanceBefore: input.beforeBalance,
+    balanceAfter: input.afterBalance,
     beforeBalance: input.beforeBalance,
     afterBalance: input.afterBalance,
     referenceType: input.referenceType,
